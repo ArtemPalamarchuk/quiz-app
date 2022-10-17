@@ -1,0 +1,9 @@
+.navigation {
+  height: 100%;
+  width: 30%;
+  background-color: royalblue;
+  padding: 20px;
+  @media(max-width: 768px) {
+    width: 100%;
+  }
+}

@@ -1,0 +1,39 @@
+.modal-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.modal-content-wrap {
+  min-width: 350px;
+}
+
+.modal-content {
+  overflow: auto;
+  padding: 0 20px 20px;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 0 0;
+  user-select: none;
+
+  & .modal-title {
+    font-size: 1.5rem;
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+}

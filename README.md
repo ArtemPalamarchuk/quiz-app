@@ -1,0 +1,1 @@
+# Tech. stack: React, Typescript, Redux Toolkit, Sass

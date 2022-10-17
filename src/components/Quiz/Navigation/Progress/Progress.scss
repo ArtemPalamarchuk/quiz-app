@@ -1,0 +1,23 @@
+.progress-block {
+  margin: 0 auto 20px auto;
+  font-size: 17px;
+  color: white;
+}
+
+.progress-status {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 12px;
+  outline: 2px solid white;
+  margin: 0 auto;
+}
+
+.current {
+  height: 12px;
+  background-color: lawngreen;
+  transition: 1s;
+}

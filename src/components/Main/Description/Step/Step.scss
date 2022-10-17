@@ -1,0 +1,22 @@
+.quiz-step {
+  max-width: 350px;
+  margin: 20px;
+
+  &-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  &-title {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #202131;
+  }
+
+  &-description {
+    color: #202131;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+}

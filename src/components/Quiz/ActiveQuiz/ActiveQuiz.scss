@@ -1,0 +1,25 @@
+.question-block {
+  width: 100%;
+  padding: 0 20px 5px 20px;
+  border-bottom: 2px solid gray;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin: 10px auto 0 auto;
+
+  & .question {
+    width: 80%;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+
+  & .current-question-number {
+    width: 150px;
+    white-space: nowrap;
+    margin-left: 10px;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+}
